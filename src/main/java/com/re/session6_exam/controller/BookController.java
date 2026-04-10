@@ -31,7 +31,7 @@ public class BookController {
     }
 
 
-    @GetMapping("/detai/{id}")
+    @GetMapping("/detail/{id}")
     public String detail(@PathVariable("id") int id, Model model) {
 
         Book books = bookService.getBookById(id);
