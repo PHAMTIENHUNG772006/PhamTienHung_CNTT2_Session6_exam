@@ -39,6 +39,6 @@ public class BookController {
 
         model.addAttribute("book", books);
 
-        return "detail/id";
+        return "detail";
     }
 }
